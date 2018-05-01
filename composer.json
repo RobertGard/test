@@ -1,0 +1,21 @@
+{
+    "name": "robertgard/yii2-test",
+    "description": "Nothing special, just a test package",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","test"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RobertGard",
+            "email": "robert.gard@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "robertgard\\test\\": ""
+        }
+    }
+}
